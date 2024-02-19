@@ -76,6 +76,7 @@ nav {
     top: 0;
     background-color: var(--color-back-1);
     z-index: 2;
+    margin-top: -5px;
 
 }
 
@@ -129,6 +130,57 @@ article:hover {
 
 article img {
     width: 100%;
+}
+
+/* Servicios  */
+#servicios {
+    background-color: #ffe4c488;
+    padding-bottom: 30px;
+    color: #69C0E4;
+}
+#servicios div {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1.5%;
+}
+
+#servicios article {
+    max-width: 30%;
+    text-align: center;
+    border: 2px solid transparent;
+    padding: 20px;
+}
+
+#servicios article:hover { 
+    border: 2px solid #69C0E4;
+}
+
+#servicios p {
+    text-align: start;
+    color: black;
+}
+
+#servicios img {
+    width: 70px;
+}
+
+
+#nosaltres div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 120px;
+}
+
+#nosaltres img {
+    max-width: 50%;
+    border-radius: 50%;
+}
+
+#nosaltres p {
+    font-size: 20px;
 }
 
 /* =============================================  */
