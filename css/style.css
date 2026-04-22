@@ -48,10 +48,14 @@ header > picture > img,
 header > picture > source
  {
   width: 100%;
+  display: block;
 }
 
 h1 {
-  display: none;
+  /* display: none; */
+  text-align: center;
+  font-size: 5rem;
+  background-color: var(--color-back-1);
 }
 
 h1,
@@ -118,17 +122,20 @@ article p {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  gap: 6%;
 }
 
 #destinos article {
-  max-width: 50%;
+  max-width: 47%;
   padding: 10px;
   border: 20px solid transparent;
+  border: 5px solid var(--color-emphasis);
+  margin-bottom: 6%;
 }
 
-article:hover {
+/* article:hover {
   border: 20px solid var(--color-emphasis);
-}
+} */
 
 article img {
   width: 100%;
